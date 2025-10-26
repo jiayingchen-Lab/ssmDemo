@@ -15,7 +15,7 @@ public class AccountController {
     @Autowired
     private AccountService accountService;
     /**
-     * 查询所有
+     * 查询所有方法
      */
     @RequestMapping("/findAll.do")
     public ModelAndView findAll() {
